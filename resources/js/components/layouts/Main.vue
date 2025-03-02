@@ -1,8 +1,7 @@
 <template>
-    <main class="flex-1 p-6 ml-64 mt-16 text-center" >
+    <main class="flex-1 p-6 ml-64 text-center" >
         <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" alt="Laravel background" />
        
-        
     </main>
 </template>
 
