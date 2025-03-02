@@ -4,7 +4,7 @@ import laravel from 'laravel-vite-plugin';
 import path from 'path';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/my-portfolio/' : '/',
+  base: '/my-portfolio/', // Replace with your repo name
   plugins: [
     laravel({
       input: ['resources/css/app.css', 'resources/js/app.js'],
@@ -18,4 +18,3 @@ export default defineConfig({
     },
   },
 });
-
