@@ -1,16 +1,11 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
-    ],
-    "builds": [
-      {
-        "src": "public/**/*",
-        "use": "@vercel/php"
-      },
-      {
-        "src": "resources/js/**/*",
-        "use": "@vercel/static"
+    "functions": {
+      "api/*.php": {
+        "runtime": "vercel-php@0.7.3"
       }
+    },
+    "routes": [
+      { "src": "/(.*)", "dest": "/api/index.php" }
     ]
   }
   
