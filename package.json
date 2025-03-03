@@ -8,7 +8,6 @@
         "dev": "vite",
         "deploy": "vite build && gh-pages -d dist"
     },
-
     "devDependencies": {
         "autoprefixer": "^10.4.20",
         "axios": "^1.7.4",
